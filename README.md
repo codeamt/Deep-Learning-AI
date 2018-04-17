@@ -16,14 +16,23 @@ In later parts of the specialization, Ng requires students to implement well-kno
 
 ## Scope of Learning 
 [x] Recurrent Neural Networks (RNNs)
+
 [x] Convolutional Neural Networks (CNNs)
+
 [x] Long Short Term Memory models (LSTMs)
+
 [x] Optimization Algorithms
+
 [x] Dropout and Normalization 
+
 [x] Weight Initialization (Xavier/He) 
+
 [x] Vectorization 
+
 [x] TensorFlow 
+
 [x] Keras
+
 [x] More...
 
 
@@ -37,7 +46,7 @@ In later parts of the specialization, Ng requires students to implement well-kno
 
 ## The Instructors 
 <p align="center">
-   | [![Andrew Ng](https://ucarecdn.com/c09759a7-db99-4c4b-841c-de9e7ec8d28f/)](#)  | [![Younes Mourri](https://ucarecdn.com/bcbec7cf-03fa-4e2c-b665-d39d59f3a353/)](#) | [![Kian Katanforoosh](https://ucarecdn.com/4dbedaa9-9aa9-4cc5-93e0-cf8fc117e167/)](#) |
+| [![Andrew Ng](https://ucarecdn.com/c09759a7-db99-4c4b-841c-de9e7ec8d28f/)](#)  | [![Younes Mourri](https://ucarecdn.com/bcbec7cf-03fa-4e2c-b665-d39d59f3a353/)](#) | [![Kian Katanforoosh](https://ucarecdn.com/4dbedaa9-9aa9-4cc5-93e0-cf8fc117e167/)](#) |
 |:---:|:---:|:---:|
 | Instructor - Andrew Ng | TA - Younes Bensouda Mourri | Head TA - Kian Katanforoosh |
 |:---:|:---:|:---:|
