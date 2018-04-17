@@ -45,12 +45,12 @@ In later parts of the specialization, Ng requires students to implement well-kno
 5. [Sequence Models]()
 
 ## The Instructors 
-<p align="center">
-| [![Andrew Ng](https://ucarecdn.com/c09759a7-db99-4c4b-841c-de9e7ec8d28f/)](#)  | [![Younes Mourri](https://ucarecdn.com/bcbec7cf-03fa-4e2c-b665-d39d59f3a353/)](#) | [![Kian Katanforoosh](https://ucarecdn.com/4dbedaa9-9aa9-4cc5-93e0-cf8fc117e167/)](#) |
-|:---:|:---:|:---:|
-| Instructor - Andrew Ng | TA - Younes Bensouda Mourri | Head TA - Kian Katanforoosh |
-|:---:|:---:|:---:|
-| Co-founder, Coursera; Adjunct Professor, Stanford University; formerly head of Baidu AI Group/Google Brain| Mathematical & Computational Sciences, Stanford University, deeplearning.ai| Adjunct Lecturer at Stanford University, deeplearning.ai, Ecole Centrale Paris |
-</p>
+
+| Instructor | Background |
+| --- | --- |
+| Andrew Ng | Co-founder, Coursera; Adjunct Professor, Stanford University; formerly head of Baidu AI Group/Google Brain |
+| Kian Katanforoosh | Adjunct Lecturer at Stanford University, deeplearning.ai, Ecole Centrale Paris |
+| Younes Bensouda Mourri | Mathematical & Computational Sciences, Stanford University, deeplearning.ai |
+
 
 
