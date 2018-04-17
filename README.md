@@ -3,7 +3,7 @@
 Course deliverables from the Coursera Deep Learnining Specialization by Andrew Ng.
 
 <p align="center">
-    <iframe width="854" height="480" src="https://www.coursera.org/account/accomplishments/specialization/certificate/CC5RHWKF2QGX" frameborder="0" allowfullscreen></iframe>
+    <ig src="https://ucarecdn.com/784039b4-7505-4e0e-94b7-d5b9a6a90b8b/" title="Deep Learning AI Specialization Certificate"
 </p>
 
 ## About the Specialization
