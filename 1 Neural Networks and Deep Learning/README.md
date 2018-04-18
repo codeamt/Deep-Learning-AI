@@ -9,7 +9,11 @@
 
 In the [first course](https://www.coursera.org/learn/neural-networks-deep-learning) of deeplearning.ai, Andrew Ng provides a thoughtful introduction to the foundational concepts of deep learning. 
 
-Deep learning, a subsect of Machine Learning, denotes the regressive process of learning the appropriate co-efficients ("the weights") and bias values (together, "the parameters") for multi-dimensional inputs (meaning, featurized x values - say, a record of houses and respective features, like number of bedrooms, bathrooms, windows, etc., for those houses) and uses these learned parameters to architect a schematic formula (a model) that predicts outputs (y values, sometimes also multi-dimensional, but following the example, say the market price) for those inputs with a freakishly high level of accuracy. 
+Deep learning, a subsect of Machine Learning, denotes the regressive process of learning: 
+
+- the appropriate co-efficients ("the weights") and bias values (together, "the parameters") for multi-dimensional inputs (meaning, featurized x values - say, a record of houses and respective features, like number of bedrooms, bathrooms, windows, etc., for those houses) 
+
+- uses these learned parameters to architect a schematic formula (a model) that predicts outputs (y values, sometimes also multi-dimensional, but following the example, say the market price) for those inputs with a freakishly high level of accuracy. 
 
 We start off basic in the first week, and unpack how logistic regression (weight generation), gradient descent (weight correction) and cost calculation (error analysis) work for a single training example (e.g., a single house-to-price mapping), then a single perceptron (one layer), and move outward to apply these processes for some (n) number of training examples (e.g., ALL the houses, all in one loop) in multi-layer perceptron, or a deep network.  
 
