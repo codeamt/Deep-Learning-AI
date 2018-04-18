@@ -14,39 +14,18 @@ Using Matrix Algebra, Linear Calculus, and Python as the programming language of
 
 In later parts of the specialization, Ng requires students to implement well-known algorithms (Jupyter notebooks for each course, linked below) from scientific papers; providing a platform to continue on with/lead research and DL projects.
 
-## Scope of Learning
+<h2 align="center">Scope of Learning</h2>
 <p align="center">
-<img src="https://ucarecdn.com/1ba1649a-ee5d-4103-8f57-068a76718572/" width="60%" height="80%" title="learning scope" >
+<img src="https://ucarecdn.com/58fe0c98-94eb-4bc8-a8d2-76805bb18ff7/" width="60%" height="80%" title="learning scope" >
 </p>
 
-[x] Recurrent Neural Networks (RNNs)
+<h1 align="center">Individual Courses</h1>
 
-[x] Convolutional Neural Networks (CNNs)
-
-[x] Long Short Term Memory models (LSTMs)
-
-[x] Optimization Algorithms
-
-[x] Dropout and Normalization 
-
-[x] Weight Initialization (Xavier/He) 
-
-[x] Vectorization 
-
-[x] TensorFlow 
-
-[x] Keras
-
-[x] More...
-
-
-# Individual Courses
-
-1. [Neural Networks and Deep Learning]()
-2. [Improving Deep Neural Networks]()
-3. [Structuring Machine Learning Projects]()
-4. [Convolutional Neural Networks]()
-5. [Sequence Models]()
+1. [Neural Networks and Deep Learning](https://github.com/codeamt/Deep-Learning-AI/tree/master/1%20Neural%20Networks%20and%20Deep%20Learning)
+2. [Improving Deep Neural Networks](https://github.com/codeamt/Deep-Learning-AI/tree/master/2%20Improving%20Deep%20Neural%20Networks)
+3. [Structuring Machine Learning Projects](https://github.com/codeamt/Deep-Learning-AI/tree/master/3%20Structuring%20Machine%20Learning%20Projects)
+4. [Convolutional Neural Networks](https://github.com/codeamt/Deep-Learning-AI/tree/master/4%20Convolutional%20Neural%20Networks)
+5. [Sequence Models](https://github.com/codeamt/Deep-Learning-AI/tree/master/5%20Sequence%20Models)
 
 ## The Instructors 
 
