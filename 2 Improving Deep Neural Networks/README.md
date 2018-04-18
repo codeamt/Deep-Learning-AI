@@ -22,11 +22,11 @@
 
 ## Programming Assignments
 
-- [x] [Initialization]()
-- [x] [Regularization]()
-- [x] [Gradient Checking]()
-- [x] [Optimization]()
-- [x] [Tensorflow]()
+- [x] [Initialization](https://github.com/codeamt/Deep-Learning-AI/blob/master/2%20Improving%20Deep%20Neural%20Networks/Implementations/1%20Practical%20Aspects%20of%20Deep%20Learning/1-PA/README.md)
+- [x] [Regularization](https://github.com/codeamt/Deep-Learning-AI/blob/master/2%20Improving%20Deep%20Neural%20Networks/Implementations/1%20Practical%20Aspects%20of%20Deep%20Learning/2-PA/README.md)
+- [x] [Gradient Checking](https://github.com/codeamt/Deep-Learning-AI/blob/master/2%20Improving%20Deep%20Neural%20Networks/Implementations/1%20Practical%20Aspects%20of%20Deep%20Learning/3-PA/README.md)
+- [x] [Optimization](https://github.com/codeamt/Deep-Learning-AI/blob/master/2%20Improving%20Deep%20Neural%20Networks/Implementations/2%20Optimization%20Algorithms/1-PA/README.md)
+- [x] [Tensorflow](https://github.com/codeamt/Deep-Learning-AI/blob/master/2%20Improving%20Deep%20Neural%20Networks/Implementations/3%20Tuning%20Hyperparameters%20and%20Batch%20Normalization/1-PA/README.md)
 
 
 
@@ -39,7 +39,7 @@
 </p>
 
 <p align="center">
-  <b>Heroes of Deep Learning Interview with Yuanqing Lin</b>
+  <b>Heroes of Deep Learning Interview with Yuanqing Lin</b><br>
 <img src="" width="400px" height="350px"><br>
   Here's where I'll give a brief synopsis of the interview and my takeaways.
 </p>
