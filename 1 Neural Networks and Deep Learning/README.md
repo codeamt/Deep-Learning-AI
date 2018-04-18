@@ -7,15 +7,15 @@
 
 <h1 align="center">About the Course</h1>
 
-In the first course of deeplearning.ai, Andrew Ng provides a thoughtful introduction to the foundational concepts of deep learning. 
+In the [first course](https://www.coursera.org/learn/neural-networks-deep-learning) of deeplearning.ai, Andrew Ng provides a thoughtful introduction to the foundational concepts of deep learning. 
 
 Deep learning, a subsect of Machine Learning, denotes the regressive process of learning the appropriate co-efficients ("the weights") and bias values (together, "the parameters") for multi-dimensional inputs (meaning, featurized x values - say, a record of houses and respective features, like number of bedrooms, bathrooms, windows, etc., for those houses) and uses these learned parameters to architect a schematic formula (a model) that predicts outputs (y values, sometimes also multi-dimensional, but following the example, say the market price) for those inputs with a freakishly high level of accuracy. 
 
-We start off basic in the first week, unpacking how logistic regression, gradient descent and cost calculation work for a single training example (e.g., a single house-to-price mapping) and move outward to apply these processes for some (n) number of training examples (e.g., ALL the houses, all in one loop). 
+We start off basic in the first week, and unpack how logistic regression (weight generation), gradient descent (weight correction) and cost calculation (error analysis) work for a single training example (e.g., a single house-to-price mapping), then a single perceptron (one layer), and move outward to apply these processes for some (n) number of training examples (e.g., ALL the houses, all in one loop) in multi-layer perceptron, or a deep network.  
 
-The magic of deep learning happens in the inner parts of an architected model, using layers of what we call "neurons" that activate the learning process. The actual "learning" happens with the help of Calculus and derivatives, when we perform "back propogation" to slowly reduce error of our model's guesses.
+The magic of deep learning happens in the inner parts of an architected model, using layers of what we call "neurons" that activate and facilitate the learning process. The actual "learning" happens with the help of Calculus and derivatives, when we perform "back propogation" to slowly reduce the error of our model's guesses.
 
-Ng goes beyond providing the theory, and demonstrates how to implement this process in actual Python code, including methods for vectorizing n number of inputs to decrease the time complexity of operations and speed up the weight learning process.
+Ng goes beyond providing the theory, and demonstrates how to implement this process in actual Python code, including methods for vectorizing some (n) number of inputs with some (m) number of features to decrease the time complexity of operations and speed up the weight learning process.
 
 ## Lessons
 
