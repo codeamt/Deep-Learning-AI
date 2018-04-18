@@ -1,43 +1,36 @@
-# Course Three: Structuring Machine Learning Project
+<h1 align="center">DLAI-3: Structuring Machine Learning Project</h1>
 
 <p align="center">
-<img src="" width="400px" height="350px">
+<img src="https://ucarecdn.com/275d2297-8b82-422b-89dd-efeff47a86f2/" width="70%" height="60%">
 </p>
 
+<h1 align="center">About the Course</h1>
 
 ## Lessons
-
-
-[x] ML Strategy (1)
-
-
-[x] ML Strategy (2)
+- [x] ML Strategy (1)
+- [x] ML Strategy (2)
 
 
 <p align="center">
-<img src="" width="400px" height="350px">
+<img src="https://ucarecdn.com/519f5d61-3a98-4b58-a3fe-13d458834356/" width="60%" height="50%">
 </p>
-
 
 
 ## Case Stuies
 
-- Bird Recognition in the city of Peacetopia
-- Autonomous Driving
-
-
+- [x] Bird Recognition in the city of Peacetopia
+- [x] Autonomous Driving
 
 
 ## Additional Material
 
-Heroes of Deep Learning Interviews:
-
-**Andrej Karpathy**
 <p align="center">
-<img src="" width="400px" height="350px">
+  <b>Heroes of Deep Learning Interview with Andrej Karpathy</b><br>
+<img src="" width="400px" height="350px"><br>
+  Here's where the description will go.
 </p>
 
-**Ruslan Salakhutdinov**
 <p align="center">
+  <b>Heroes of Deep Learning Interview with Ruslan Salakhutdinov</b><br>
 <img src="" width="400px" height="350px">
 </p>
