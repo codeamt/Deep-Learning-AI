@@ -33,13 +33,13 @@
 ## Additional Material
 
 <p align="center">
-  <b>Hereos of Deep Learning Interview with Yoshua Bengio</b>
+  <b>Hereos of Deep Learning Interview with Yoshua Bengio</b><br>
   Here's where I'll give a brief synopsis of the interview and my takeaways.
 <img src="" width="400px" height="350px">
 </p>
 
 <p align="center">
-  <b>Heroes of Deep Learning Interview with Yuanqing Lin</b>
+  <b>Heroes of Deep Learning Interview with Yuanqing Lin</b><br>
   Here's where I'll give a brief synopsis of the interview and my takeaways.
 <img src="" width="400px" height="350px">
 </p>
