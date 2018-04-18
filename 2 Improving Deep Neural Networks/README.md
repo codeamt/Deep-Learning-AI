@@ -34,12 +34,12 @@
 
 <p align="center">
   <b>Hereos of Deep Learning Interview with Yoshua Bengio</b><br>
+<img src="" width="400px" height="350px"><br>
   Here's where I'll give a brief synopsis of the interview and my takeaways.
-<img src="" width="400px" height="350px">
 </p>
 
 <p align="center">
-  <b>Heroes of Deep Learning Interview with Yuanqing Lin</b><br>
+  <b>Heroes of Deep Learning Interview with Yuanqing Lin</b>
+<img src="" width="400px" height="350px"><br>
   Here's where I'll give a brief synopsis of the interview and my takeaways.
-<img src="" width="400px" height="350px">
 </p>
