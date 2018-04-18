@@ -14,12 +14,12 @@ Using Matrix Algebra, Linear Calculus, and Python as the programming language of
 
 In later parts of the specialization, Ng requires students to implement well-known algorithms (Jupyter notebooks for each course, linked below) from scientific papers; providing a platform to continue on with/lead research and DL projects.
 
-<h2 align="center">Scope of Learning</h2>
+<h1 align="center">Scope of Learning</h1>
 <p align="center">
 <img src="https://ucarecdn.com/5fd5e6b7-1529-47c2-a7fb-ef8d60e91f96/" width="60%" height="80%" title="learning scope" >
 </p>
 
-<h1 align="center">Individual Courses</h1>
+## Individual Courses
 
 1. [Neural Networks and Deep Learning](https://github.com/codeamt/Deep-Learning-AI/tree/master/1%20Neural%20Networks%20and%20Deep%20Learning)
 2. [Improving Deep Neural Networks](https://github.com/codeamt/Deep-Learning-AI/tree/master/2%20Improving%20Deep%20Neural%20Networks)
