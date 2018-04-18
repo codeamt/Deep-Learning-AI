@@ -14,7 +14,11 @@ Using Matrix Algebra, Linear Calculus, and Python as the programming language of
 
 In later parts of the specialization, Ng requires students to implement well-known algorithms (Jupyter notebooks for each course, linked below) from scientific papers; providing a platform to continue on with/lead research and DL projects.
 
-## Scope of Learning 
+## Scope of Learning
+<p align="center">
+<img src="https://ucarecdn.com/1ba1649a-ee5d-4103-8f57-068a76718572/" width="60%" height="80%" title="learning scope" >
+</p>
+
 [x] Recurrent Neural Networks (RNNs)
 
 [x] Convolutional Neural Networks (CNNs)
