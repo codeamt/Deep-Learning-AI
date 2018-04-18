@@ -7,19 +7,18 @@
 <h1 align="center">About the Course</h1>
 
 ## Lessons
+
 - [x] ML Strategy (1)
 - [x] ML Strategy (2)
-
 
 <p align="center">
 <img src="https://ucarecdn.com/519f5d61-3a98-4b58-a3fe-13d458834356/" width="60%" height="50%">
 </p>
 
+## Case Studies
 
-## Case Stuies
-
-- [x] Bird Recognition in the city of Peacetopia
-- [x] Autonomous Driving
+- [x] [Bird Recognition in the city of Peacetopia](https://github.com/codeamt/Deep-Learning-AI/blob/master/3%20Structuring%20Machine%20Learning%20Projects/Case%20Studies/1%20Bird%20Recognition/README.md)
+- [x] [Autonomous Driving](https://github.com/codeamt/Deep-Learning-AI/blob/master/3%20Structuring%20Machine%20Learning%20Projects/Case%20Studies/2%20Autonomous%20Driving/README.md)
 
 
 ## Additional Material
