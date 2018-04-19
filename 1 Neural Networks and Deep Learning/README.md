@@ -21,7 +21,11 @@ We start off basic in the first week, and unpack how logistic regression (weight
 <img src="https://ucarecdn.com/0b85575b-6c0f-434d-8f9e-d01ca7f0c732/" width="60%" height="50%"
 </p>
   
-then in a multi-layer perceptron, or a deep network.  
+then, in a multi-layer perceptron, or a deep network.
+
+<p align="center">
+<img src="https://ucarecdn.com/70d6d8d2-699e-4869-8df3-5d9a8558a7c0/" width="60%" height="50%"
+</p>
 
 The magic of deep learning happens in the inner parts of an architected model, using aforementioned layers of what we call "neurons" that activate and facilitate the learning process. The actual "learning" happens with the help of Calculus and derivatives, when we perform "back propogation" to systematically improve our model's learning.
 
