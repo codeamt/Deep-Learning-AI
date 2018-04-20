@@ -6,6 +6,7 @@
 
 
 <h1 align="center">About the Course</h1>
+
 In the [second course](https://www.coursera.org/learn/deep-neural-network) of deeplearning.ai, Andrew Ng helps students migrate away from the "black box" approach to deep learning, and instead better understand optimization techniques and intuitions that give deep neural nets a performance boost. 
 
 Some of the deep learning "tricks" explored include: 
