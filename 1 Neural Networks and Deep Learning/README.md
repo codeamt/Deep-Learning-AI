@@ -24,10 +24,14 @@ We start off basic in the first week, and unpack how logistic regression (weight
 then, in a multi-layer perceptron, or a deep network.
 
 <p align="center">
-<img src="https://ucarecdn.com/70d6d8d2-699e-4869-8df3-5d9a8558a7c0/" width="60%" height="50%"
+<img src="https://ucarecdn.com/70d6d8d2-699e-4869-8df3-5d9a8558a7c0/" width="60%" height="50%" >
 </p>
 
 The magic of deep learning happens in the inner parts of an architected model, using aforementioned layers of what we call "neurons" that activate and facilitate the learning process. The actual "learning" happens with the help of Calculus and derivatives, when we perform "back propogation" to systematically improve our model's learning.
+
+<p align="center">
+  <img src="https://ucarecdn.com/2acdb538-145d-4abe-8a65-e722fd8feb5c/" width="60%" height="50%" >
+</p>
 
 Professor Ng goes beyond providing the theory, and demonstrates how to implement this process in actual Python code, including methods for vectorizing some (n) number of inputs with some (m) number of features to decrease the time complexity of operations and speed up the weight learning process.
 
