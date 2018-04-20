@@ -6,13 +6,20 @@
 
 
 <h1 align="center">About the Course</h1>
-In the [second course]() of deeplearning.ai, Andrew Ng helps students migrate away from the "black box" approach to deep learning, and instead better understand optimization techniques and intuitions that give deep neural nets a performance boost. 
+In the [second course](https://www.coursera.org/learn/deep-neural-network) of deeplearning.ai, Andrew Ng helps students migrate away from the "black box" approach to deep learning, and instead better understand optimization techniques and intuitions that give deep neural nets a performance boost. 
 
-Some of the deep learning "tricks" explored include: how to initialize weights for learning, optimization alogrithms (e.g., mini-batch gradient descent, Adam and RMSprop) and how to check for their convergence, regularization (e.g., L2 and dropout), batch normalization and common ratios for splitting up data into training, dev, and test sets, and more. 
+Some of the deep learning "tricks" explored include: 
 
-Up until this course, the specialization focuses mostly on the binary classifier as the algorithm of choice. In the final week of this course, Professor Ng introduces a new type of output layer -- the "Softmax" layer -- which sets the stage for vector encoding in later courses. 
+- how to initialize weights for learning 
+- optimization alogrithms (e.g., mini-batch gradient descent, Adam and RMSprop) and how to check for their convergence 
+- regularization (e.g., L2 and dropout) 
+- batch normalization 
+- common ratio splits of data for training, dev, and test sets 
+- more 
 
-Once all the fundamentals of building optimal deep NN have been covered and we have fine grain understanding of how all the moving parts work and how best to tune our hyperparameters, the programming assignments gets more applied with a brief intro on how to implement a simple computational graph with the popular DL framework, Tensorflow. 
+Up until this course, the specialization focuses mostly on the binary classifier as the DL algorithm of choice. In the final week of this course, Professor Ng introduces a new type of output layer - the "Softmax" layer - which sets the stage for vector encoding in later courses. 
+
+Once all the best practices for tuning hyperparameters have been covered, the course gets into popular frameworks that handle some of the heavy lifting with built-in modular methods that we've been implementing from scratch in our programming assignments. This "learn-the-proof" teaching style helps to better understand all the moving parts of a DL framework, like Tensorflow, which we use in our final programming assignment to implement a simple computational graph (linked below). 
 
 
 ## Lessons
