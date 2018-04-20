@@ -30,7 +30,7 @@ then, in a multi-layer perceptron, or a deep network.
 The magic of deep learning happens in the inner parts of an architected model, using aforementioned layers of what we call "neurons" that activate and facilitate the learning process. The actual "learning" happens with the help of Calculus and derivatives, when we perform "back propogation" to systematically improve our model's learning.
 
 <p align="center">
-  <img src="https://ucarecdn.com/2acdb538-145d-4abe-8a65-e722fd8feb5c/" width="60%" height="50%" >
+  <img src="https://ucarecdn.com/51808340-5082-4aa6-b53c-eb09449001b0/" width="60%" height="50%" >
 </p>
 
 Professor Ng goes beyond providing the theory, and demonstrates how to implement this process in actual Python code, including methods for vectorizing some (n) number of inputs with some (m) number of features to decrease the time complexity of operations and speed up the weight learning process.
