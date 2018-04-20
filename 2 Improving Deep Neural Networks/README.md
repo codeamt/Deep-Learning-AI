@@ -11,16 +11,29 @@ In the [second course](https://www.coursera.org/learn/deep-neural-network) of de
 
 Some of the deep learning "tricks" explored include: 
 
-- how to initialize weights for learning 
-- optimization alogrithms (e.g., mini-batch gradient descent, Adam and RMSprop) and how to check for their convergence 
-- regularization (e.g., L2 and dropout) 
-- batch normalization 
-- common ratio splits of data for training, dev, and test sets 
-- more 
+- Intuitions about minimizing overfitting and variance in DL projects (e.g., train/dev splits, regularization, etc.)
+- Popular regularization options (e.g., Euclidean Norm/L2 Regularization, using Dropout on layers inputting many params) 
+- Normalizing inputs to reduce variance, improve cost function optimization and ultimately speed up traing 
+- How randomizing weight initialization can solve exploding/vanishing gradient issues 
+- Using gradient checking to debug the back propagation process
+- Optimizing (e.g.,using mini-batch gradient descent, exponentially weighted averages, Adam or RMSprop) on "big data" sets  
+- Learning rate decay 
+- Practical tips like on how to systematically set up the hyperparameter search process to converge effectively 
+- Using batch normalization (Beta/Gamma) on a hidden layer's activation fx to reduce covariate shift (and train params faster) 
+- More!
 
-Up until this course, the specialization focuses mostly on the binary classifier as the DL algorithm of choice. In the final week of this course, Professor Ng introduces a new type of output layer - the "Softmax" layer - which sets the stage for vector encoding in later courses. 
+The main takeaway from this course - training deep NNs is a deeply iterative and inductive process: 
 
-Once all the best practices for tuning hyperparameters have been covered, the course gets into popular frameworks that handle some of the heavy lifting with built-in modular methods that we've been implementing from scratch in our programming assignments. This "learn-the-proof" teaching style helps to better understand all the moving parts of a DL framework, like Tensorflow, which we use in our final programming assignment to implement a simple computational graph (linked below). 
+<p align="center">
+<img src="https://ucarecdn.com/86127f49-327c-4153-a6d1-d9b39ce15cd9/" width="70%" height="60%">
+</p>
+
+
+Up until this course, the specialization mostly focuses on the binary classifier as the DL algorithm of choice. In the final week of this course, Professor Ng introduces a new type of output layer - the "Softmax" layer - which transforms a NN into a multi-class classifier, capable of mapping inputs to one (or more) of many potential prediction classes. 
+
+Lessons on the Softmax layer plant seeds of thought about vector encoding for later courses/network architectures. 
+
+Once all the best practices for tuning hyperparameters have been covered, the course gets into popular frameworks that handle some of the heavy lifting with built-in modular methods that we've been implementing from scratch in our programming assignments. This "learn-the-proof-first" type of teaching style helps to better understand all the moving parts of a DL framework, like Tensorflow, which we use in our final programming assignment to implement a simple computational graph (linked below). 
 
 
 ## Lessons
@@ -50,12 +63,12 @@ Once all the best practices for tuning hyperparameters have been covered, the co
 
 <p align="center">
   <b>Hereos of Deep Learning Interview with Yoshua Bengio</b><br>
-<img src="" width="400px" height="350px"><br>
+<img src="https://ucarecdn.com/6682ae29-bb7b-447b-bd1f-c041c5a74594/" width="400px" height="350px"><br>
   Here's where I'll give a brief synopsis of the interview and my takeaways.
 </p>
 
 <p align="center">
   <b>Heroes of Deep Learning Interview with Yuanqing Lin</b><br>
-<img src="" width="400px" height="350px"><br>
+<img src="https://ucarecdn.com/6682ae29-bb7b-447b-bd1f-c041c5a74594/" width="400px" height="350px"><br>
   Here's where I'll give a brief synopsis of the interview and my takeaways.
 </p>
