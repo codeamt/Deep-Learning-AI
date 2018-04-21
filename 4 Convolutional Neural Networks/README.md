@@ -6,6 +6,26 @@
 
 <h1 align="center">About the Course</h1>
 
+In the [fourth installment](https://www.coursera.org/learn/convolutional-neural-networks) of deeplearning.ai, Andrew Ng introduces a new class of Deep Learning architectures - the Convolutional Neural Network (CNN) and how to apply CNNs on unstructured data (in this case, image data).
+
+The most prevelant use case for the CNN architecture is <i>Computer Vision</i>; an area of deep learning that has broken ground in just a couple of years. Examples of Computer Vision include: 
+
+- Autonomous Driving 
+- Facial Recognition 
+- Automatic Reading of Radiology Images 
+- Neural Style Transfer 
+
+Up until this point in the course, examples have explored Image Classification with a basic, fully connected neural network architecture. Professor Ng demonstrates how a 1000x1000 color image inputed into a hidden layer with 1000 neurons can quickly become an infeasable training task for a simple NN.
+
+Instead, best practice is to use the <b><i>Convolution Operation</i></b> on an image - that is, layering a filter matrix (each place in the matrix representing a certain integer value) on top of the training image (starting from the upper most-left corner) and summing the element-wise products of filter pixels and image pixels: 
+
+<p align="center">
+<img src="https://ucarecdn.com/107f52b1-30a9-4644-995f-ce52f37b4c03/" width="60%" height="50%">
+</p>
+
+
+
+
 ## Lessons
 - [x] Foundations of Convolutional Neural Networks
 - [x] Deep convolutional models
