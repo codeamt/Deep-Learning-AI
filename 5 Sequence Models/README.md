@@ -6,7 +6,7 @@
 
 <h1 align="center">About the Course</h1>e
 
-In the fifth and final course of the specialization, we explore Recurrent Neural Networks (RNNs) and training on sequences/time series data. 
+In the [fifth and final course](https://www.coursera.org/learn/nlp-sequence-models) of the specialization, we explore Recurrent Neural Networks (RNNs) and training on sequences/time series data. 
 
 Why do we need a new type of network to handle sequence data? Mostly, because input sequences might not be the same length and doesn't necessarily share features further down the input. 
 
