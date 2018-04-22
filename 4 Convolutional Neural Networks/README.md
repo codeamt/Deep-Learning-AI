@@ -33,19 +33,27 @@ We combine these hidden layers with typical fully-connected layers (say, a logis
 
 With the CNNs (or ***ConvNets***), a typical ouput layer is a logistical softmax layer that outputs a probability score and the goal is to train a model of feature detectors that can detect objects at human-level error or better. 
 
-Some of the classic CNN architectures explored include: 
+<p align="center">
+<img src="https://ucarecdn.com/52890d97-5388-4ef5-99e5-c12575a39baa/" width="60%" height="50%">
+</p>
+
+Some of the classic CNN architectures/algoritms and topics explored include: 
 
 - [x] LeNet 
 - [x] AlexNet 
 - [x] variations of VGGNet 
 - [x] ResNet 
 - [x] Inception Netowrk 
+- [x] YOLO 
+- [x] One Shot Learning 
+- [x] Siamese Network
 
 Other best practices and takeaways: 
 
 - [x] transfer learning and using open-source implementation 
 - [x] data pre-processing techniques (e.g., data augmentation) 
-- [x] 
+- [x] Vector encoding 
+- [x] Applying CNNs on 2D and 3D data 
 
 Professor Ng also discusses the state of Con
 
@@ -77,17 +85,19 @@ Professor Ng also discusses the state of Con
 </p>
 
 **Reviewed Research Papers:**
+
 [[1] LeCun et al., 1998. *Gradient-based learning applied to document recognition*]()
-
 [[2] Krizhevsky et al., 2012. *ImageNet classification with deep convolutional neural networks*]()
-
 [[3] Simonyan and Zisserman. 2015. *Very deep convolutional networks for large-scale image recognition*]()
-
 [[4] He et al., 2015. *Deep residual networks for image recognition.*]()
-
 [[5] Lin et al., 2013. *Network in network.*]()
-
 [[6] Zsegedy et al., 2014. *Going deeper with convolutions.*]()
-
 [[7] Redmon et al., 2015. *You Only Look Once: Unified real-time object detection.*]()
-
+[[8] Sermanet et al., 2014. *OverFeat: Integrated recognition, localization and detection using convolutional networks.*]()
+[[9] Girshik et al., 2013. *Rich feature heirarchies for accurate object detection and semantic segmentation.*]()
+[[10] Girshik et al., 2015. *Fast R-CNN.*]()
+[[11] Ren et al., 2016. *Faster R-CNN: Towards real-time object detection with region proposal networks.*]()
+[[12] Taigman et al., 2014. *DeepFace closing the gap to human level performance.*]()
+[[13] Schroff et al., 2015. *FaceNet: A unified embedding for face recognition and clustering.*]()
+[[14] Zeiler and Fergus., 2013. *Visualizing and understanding convolutional networks.*]()
+[[15] Gatys et al., 2015, *A neural algorithm of artistic style.*]()
