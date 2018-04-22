@@ -85,7 +85,7 @@ Other best practices and takeaways:
 
 <p align="center">
   <b>Heroes of Deep Learning Interview with Yann LeCun</b><br>
-<img src="https://ucarecdn.com/dcb11f06-f5de-4564-b382-3d17a4f78922/" width="50%" height="40%">
+<img src="https://ucarecdn.com/027620d7-66f3-4622-b01c-32b8b35f3632/" width="50%" height="40%">
 </p>
 
 **Reviewed Research Papers:**
