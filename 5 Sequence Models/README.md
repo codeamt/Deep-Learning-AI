@@ -37,22 +37,40 @@ Why do we need a new type of network to handle sequence data? Mostly, because in
 **Reviewed Research Papers:**
 
 [[1]]() Cho et al., 2014. *On the properties of neural machine translation: Encoder-decoderapproaches*
+
 [[2]]() Chung et al., 2014. *Empirical Evaluation of Gated Recurrent Neural Network*
+
 [[3]]() Hochreiter and Schmidchuber 1997. *Long short-term memory.* 
+
 [[4]]() van der Marteen and Hinton., 2008. *Visualizing data using t-SNE.* 
+
 [[5]]() Mikolov et al., 2013. *Linguistic regularities in continuous space with representations*
+
 [[6]]() Bengio et al., 2003. *A neural probabilistic language model.*
+
 [[7]]() Mikolov et al., 2013. *Efficient representation of word representation in vector space* 
+
 [[8]]() Mikolov et al., 2013. *Distributed representations of words and phrases and their compositionality* 
+
 [[9]]() Pennington et al., 2014. *GloVe: Global vectors for word representations.* 
+
 [[10]]() Bolukbasi et al., 2016. *Man is to computer programmer as woman is to homemaker? Debiasing word embeddings?* 
+
 [[11]]() Sutskever et al., 2014. *Sequence to sequence learning with neural networks*
+
 [[12]]() Cho et al., 2014. *Learning phrase representations using RNN encoder/decoder for statistical machine translation*
+
 [[13]]() Mao et al., 2014. *Deep captioning with multimodal recurrent neural network*
+
 [[14]]() Vinyals et al., 2014. *Show and tell: Neural image captioning generator*
+
 [[15]]() Karpathy and Fei Fei, 2015. *Deep visual-semantic alignments for generating image descriptions* 
+
 [[16]]() Papineni et al., 2002. *A method for automatic evaluation of machine translation*
+
 [[17]]() Bahdanau et al., 2014. *Neural machine translation by jointly learning to align and translate*
-[[18]]() Xu et al., 2015. *Show attention and tell: neural image caption generation with visual attention* 
+
+[[18]]() Xu et al., 2015. *Show attention and tell: neural image caption generation with visual attention*
+
 [[19]]() Graves et al., 2006. *Connectionist Temporal Classification: Labeling unsegmented sequence data with recurrent neural networks*
 
