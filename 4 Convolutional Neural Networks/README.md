@@ -35,9 +35,10 @@ Professor Ng works through the logic of hyperparameter tuning for convolutional 
 
 ***Pooling layers***, for example, do not take in parameters, but instead help us to crop inputs, delay activation decay, keep the number of parameters reasonable, and improve performance.  Pooling is to CNNs, what Dropout is (kind of) to regular Deep NNs. 
 
-
+<p align="center">
 <img src="https://ucarecdn.com/ed2f5418-fc64-4b40-ae0c-ab69ba1212ff/" width="40%" height="200px" style="display: inline-block; margin-right: 5%" />
 <img src="https://ucarecdn.com/dcb11f06-f5de-4564-b382-3d17a4f78922/" width="40%" height="200px" style="display: inline-block">
+</p>
 
 We use these building box layers along with fully-connected layers (usually, at least a logistical softmax layer that outputs a probability score) to design unique architectures to solve unique computer vision problems. 
 
@@ -84,7 +85,7 @@ Other best practices and takeaways:
 
 <p align="center">
   <b>Heroes of Deep Learning Interview with Yann LeCun</b><br>
-<img src="" width="400px" height="350px">
+<img src="https://ucarecdn.com/dcb11f06-f5de-4564-b382-3d17a4f78922/" width="50%" height="40%">
 </p>
 
 **Reviewed Research Papers:**
