@@ -23,8 +23,31 @@ Instead, best practice is to use the <b><i>Convolution Operation</i></b> on an i
 <img src="https://ucarecdn.com/107f52b1-30a9-4644-995f-ce52f37b4c03/" width="60%" height="50%">
 </p>
 
+In a Convolutional NN, when applied on vectorized input of several images, the operation illustrated above functions like the matrix multiplication operation that occurs during the linear regression process of a fully connected layer in a traditional Deep Neural Net. The ***convolutional layer*** outputs a convolved matrix, ***z***, and when stacked together, each convolutional layer detects for a certain feature (like, horizontal or vertical edges) of the inputed image before undergoing some non-linear transformation (e.g., like ReLu activation) to get a visual cipher image that acts as the activation input for the next layer. 
 
+The dimension and count (the shape values) of these filter cubes, together with the 1-dimensional bias variable, determine the number of parameters for the respective filter layer, regardless of how big/resolute the input image is. Parameters can also be shared when similar features need to be detected later on in the network. Professor Ng works through some of the hyperparameters we typically tune for convolutional layers, like stride (s) and padding (p), as well as the types of optimization layers we can use (like ***pooling layers***, that do not take in parameters) to crop inputs, to delay activation decay some, keep the number of parameters reasonable, and improve performance.  
 
+Pooling is to CNNs, what Dropout is (kind of) to regular Deep NNs. 
+
+We combine these hidden layers with typical fully-connected layers (say, a logistical softmax layer that outputs a probability score) to design unique architectures. 
+
+With the CNNs (or ***ConvNets***), a typical ouput layer is a logistical softmax layer that outputs a probability score and the goal is to train a model of feature detectors that can detect objects at human-level error or better. 
+
+Some of the classic CNN architectures explored include: 
+
+- [x] LeNet 
+- [x] AlexNet 
+- [x] variations of VGGNet 
+- [x] ResNet 
+- [x] Inception Netowrk 
+
+Other best practices and takeaways: 
+
+- [x] transfer learning and using open-source implementation 
+- [x] data pre-processing techniques (e.g., data augmentation) 
+- [x] 
+
+Professor Ng also discusses the state of Con
 
 ## Lessons
 - [x] Foundations of Convolutional Neural Networks
@@ -54,8 +77,17 @@ Instead, best practice is to use the <b><i>Convolution Operation</i></b> on an i
 </p>
 
 **Reviewed Research Papers:**
-[[1]]()
-[[2]]()
-[[3]]()
-[[4]]()
+[[1] LeCun et al., 1998. *Gradient-based learning applied to document recognition*]()
+
+[[2] Krizhevsky et al., 2012. *ImageNet classification with deep convolutional neural networks*]()
+
+[[3] Simonyan and Zisserman. 2015. *Very deep convolutional networks for large-scale image recognition*]()
+
+[[4] He et al., 2015. *Deep residual networks for image recognition.*]()
+
+[[5] Lin et al., 2013. *Network in network.*]()
+
+[[6] Zsegedy et al., 2014. *Going deeper with convolutions.*]()
+
+[[7] Redmon et al., 2015. *You Only Look Once: Unified real-time object detection.*]()
 
