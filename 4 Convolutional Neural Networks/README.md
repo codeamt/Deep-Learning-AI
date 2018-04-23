@@ -90,7 +90,7 @@ Other best practices and takeaways:
 
 **Reviewed Research Papers:**
 
-- [[1]](Gradient-based learning applied to document recognition) LeCun et al., 1998. *Gradient-based learning applied to document recognition*
+- [[1]](http://yann.lecun.com/exdb/publis/pdf/lecun-98.pdf) LeCun et al., 1998. *Gradient-based learning applied to document recognition*
 - [[2]](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf) Krizhevsky et al., 2012. *ImageNet Classification with Deep Convolutional Neural Networks*
 - [[3]](https://arxiv.org/pdf/1409.1556.pdf) Simonyan and Zisserman. 2015. *Very Deep Convolutional Networks for Large-Scale Image Recognition*
 - [[4]](https://arxiv.org/pdf/1512.03385.pdf) He et al., 2015. *Deep Residual Networks for Image Recognition.*
