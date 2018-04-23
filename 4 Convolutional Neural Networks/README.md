@@ -90,18 +90,18 @@ Other best practices and takeaways:
 
 **Reviewed Research Papers:**
 
-- [[1]]() LeCun et al., 1998. *Gradient-based learning applied to document recognition*
-- [[2]]() Krizhevsky et al., 2012. *ImageNet classification with deep convolutional neural networks*
-- [[3]]() Simonyan and Zisserman. 2015. *Very deep convolutional networks for large-scale image recognition*
-- [[4]]() He et al., 2015. *Deep residual networks for image recognition.*
-- [[5]]() Lin et al., 2013. *Network in network.*
-- [[6]]() Zsegedy et al., 2014. *Going deeper with convolutions.*
-- [[7]]() Redmon et al., 2015. *You Only Look Once: Unified real-time object detection.*
-- [[8]]() Sermanet et al., 2014. *OverFeat: Integrated recognition, localization and detection using convolutional networks.*
-- [[9]]() Girshik et al., 2013. *Rich feature heirarchies for accurate object detection and semantic segmentation.*
-- [[10]]() Girshik et al., 2015. *Fast R-CNN.*
-- [[11]]() Ren et al., 2016. *Faster R-CNN: Towards real-time object detection with region proposal networks.*
-- [[12]]() Taigman et al., 2014. *DeepFace closing the gap to human level performance.*
-- [[13]]() Schroff et al., 2015. *FaceNet: A unified embedding for face recognition and clustering.*
-- [[14]]() Zeiler and Fergus., 2013. *Visualizing and understanding convolutional networks.*
-- [[15]]() Gatys et al., 2015, *A neural algorithm of artistic style.*
+- [[1]](Gradient-based learning applied to document recognition) LeCun et al., 1998. *Gradient-based learning applied to document recognition*
+- [[2]](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf) Krizhevsky et al., 2012. *ImageNet Classification with Deep Convolutional Neural Networks*
+- [[3]](https://arxiv.org/pdf/1409.1556.pdf) Simonyan and Zisserman. 2015. *Very Deep Convolutional Networks for Large-Scale Image Recognition*
+- [[4]](https://arxiv.org/pdf/1512.03385.pdf) He et al., 2015. *Deep Residual Networks for Image Recognition.*
+- [[5]](https://arxiv.org/pdf/1312.4400.pdf) Lin et al., 2013. *Network In Network.*
+- [[6]](https://arxiv.org/pdf/1409.4842.pdf) Szegedy et al., 2014. *Going deeper with convolutions.*
+- [[7]](https://arxiv.org/pdf/1506.02640.pdf) Redmon et al., 2015. *You Only Look Once: Unified Real-Time Object Detection.*
+- [[8]](https://arxiv.org/pdf/1312.6229.pdf) Sermanet et al., 2014. *OverFeat: Integrated Recognition, Localization and Detection using Convolutional Networks.*
+- [[9]](https://arxiv.org/pdf/1311.2524.pdf) Girshick et al., 2013. *Rich feature heirarchies for accurate object detection and semantic segmentation.*
+- [[10]](https://arxiv.org/pdf/1504.08083.pdf) Girshik et al., 2015. *Fast R-CNN.*
+- [[11]](https://arxiv.org/pdf/1506.01497.pdf) Ren et al., 2016. *Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks.*
+- [[12]](https://www.cs.toronto.edu/~ranzato/publications/taigman_cvpr14.pdf) Taigman et al., 2014. *DeepFace: Closing the Gap to Human-Level Performance.*
+- [[13]](https://arxiv.org/pdf/1503.03832.pdf) Schroff et al., 2015. *FaceNet: A Unified Embedding for Face Recognition and Clustering.*
+- [[14]](https://arxiv.org/pdf/1311.2901.pdf) Zeiler and Fergus, 2013. *Visualizing and Understanding Convolutional Networks.*
+- [[15]](https://arxiv.org/pdf/1508.06576.pdf) Gatys et al., 2015, *A Neural Algorithm of Artistic Style.*
