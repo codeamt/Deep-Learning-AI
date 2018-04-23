@@ -4,13 +4,28 @@
 <img src="https://ucarecdn.com/e9905bea-68f5-49a6-a839-8816e42bc1bb/" width="70%" height="60%">
 </p>
 
-<h1 align="center">About the Course</h1>e
+<h1 align="center">About the Course</h1>
 
 In the [fifth and final course](https://www.coursera.org/learn/nlp-sequence-models) of the specialization, we explore Recurrent Neural Networks (RNNs) and training on sequences/time series data. 
 
+Potential use cases for RNNs include: 
+
+- Speech Recognition 
+- Music Generation 
+- Machine Translation 
+- Sentiment Classification 
+- DNA Sequence Analysis 
+- Video Activity Recognition 
+- Name Entity Recognition 
+- Financial Series Forecasting 
+- More 
+
 Why do we need a new type of network to handle sequence data? Mostly, because input sequences might not be the same length and doesn't necessarily share features further down the input. 
 
-
+<b align="center">Simple RNN (where input and output equal the same length)</b>
+<p align="center">
+<img src="https://ucarecdn.com/fa648557-dbcc-4531-803b-10abb26f20a7/" width="70%" height="60%">
+</p>
 
 ## Lessons
 - [x] Recurrent Neural Networks
