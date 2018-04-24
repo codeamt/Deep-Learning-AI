@@ -29,9 +29,9 @@ Potential use cases for RNNs include:
 - Machine Translation 
 - Sentiment Classification 
 
-<figure width="50%">
+<figure width="50%" style="text-align: center">
 <b>Sentiment Classification</b><br>
-<img src="https://ucarecdn.com/ed084d52-00b8-4b1a-aba2-8c16e7384891/" width="50%">
+<img src="https://ucarecdn.com/ed084d52-00b8-4b1a-aba2-8c16e7384891/" width="30%">
 </figure>
   
 - DNA Sequence Analysis 
