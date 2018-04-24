@@ -24,40 +24,22 @@ Additionally, the way we learn with RNNs is different, too. Loss is calculated b
 
 Potential use cases for RNNs include: 
 
-- Speech Recognition 
-- Music Generation 
-- Machine Translation 
-- Sentiment Classification 
-
-
-
-<figure>
-  <img src="https://ucarecdn.com/ed084d52-00b8-4b1a-aba2-8c16e7384891/" width="30%" title="Sentiment Classification" > 
-  <figcaption>
-    Music Generation
-  </figcaption>
-</figure> 
   
   | Problem | Network |
 | --- | --- |
+| Speech Recognition | <img src="https://ucarecdn.com/ca77a526-c3e8-4e4b-a3b2-be7d1d7ae7f4/" width="30%">|
+| Music Generation | <img src="https://ucarecdn.com/a99fa010-48e4-4c44-8e08-239169a0914d/" width="30%">|
 | Sentiment Classification | <img src="https://ucarecdn.com/ed084d52-00b8-4b1a-aba2-8c16e7384891/" width="30%">|
-| Music Generation | <img src="https://ucarecdn.com/ed084d52-00b8-4b1a-aba2-8c16e7384891/" width="30%">|
+| Machine Translation | <img src="https://ucarecdn.com/85008935-2ff4-482a-87b1-7237f44ba6c8/" width="30%">|
 
 
-
-  
 - DNA Sequence Analysis 
 - Video Activity Recognition 
 - Name Entity Recognition 
 - Financial Series Forecasting 
 - More 
 
-Why do we need a new type of network to handle sequence data? Mostly, because input sequences might not be the same length and doesn't necessarily share features further down the input. 
 
-<b align="center">Simple RNN (where input and output equal the same length)</b>
-<p align="center">
-<img src="https://ucarecdn.com/fa648557-dbcc-4531-803b-10abb26f20a7/" width="70%" height="60%">
-</p>
 
 ## Lessons
 - [x] Recurrent Neural Networks
