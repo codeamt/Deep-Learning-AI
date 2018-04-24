@@ -6,7 +6,15 @@
 
 <h1 align="center">About the Course</h1>
 
-In the [fifth and final course](https://www.coursera.org/learn/nlp-sequence-models) of the specialization, we explore Recurrent Neural Networks (RNNs) and training on sequences/time series data. 
+In the [fifth and final course](https://www.coursera.org/learn/nlp-sequence-models) of the specialization, we explore Recurrent Neural Networks (RNNs) and training on sequences/time series data, where each record represents a single ***time step*** in the data sequence. In a sense, each value (time step) in a sequence of values (multiple time steps) acts as its own learning problem and undergoes linear regression to gain insights/generate a prediction for that specific time step in the series. 
+
+Each time step inherits information from the previous time step to help generate a prediction and unlike previous architectures, with RNNs, activations and prediction outputs are calculated separately.
+
+<p align="center">
+<b>Simple Uni-directional RNN (where input and output equal the same length)</b><br>
+<img src="https://ucarecdn.com/acb7e6f2-d67e-426f-99d0-edf2053facc7/" width="70%" height="60%">
+</p>
+
 
 Potential use cases for RNNs include: 
 
