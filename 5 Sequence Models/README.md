@@ -43,10 +43,18 @@ With sequence models, the number of inputs don't always match the number of outp
 </tr>
 </table>
 
-As explained in previous courses, the deeper the network, the more adverse the effect on the network's memory (e.g., the vanishing gradient problem, where derivatives decrease exponentially). With natural language processing, for example, a simple RNN would have a long time memorizing word tenses for computations further down the sequence. To address this problem, RNNs have more sophisticated neurons for helping to capture long-range dependencies: the ***Gated Recurrent Unit (GRU)*** and the ***Long Short Term Memory Unit (LSTM)***, which utilize memory cells and various gates to set/reset state in a deep RNN. 
+As explained in previous courses, the deeper the network, the more adverse the effect on the network's memory (e.g., the vanishing gradient problem, where derivatives decrease exponentially). With natural language processing, for example, a simple RNN would have a hard time memorizing word tenses for word analysis further down the sequence. To address this problem, RNNs have more sophisticated neurons that help capture long-range dependencies: the ***Gated Recurrent Unit (GRU)*** and more generally the ***Long Short Term Memory Unit (LSTM)***, which both utilize memory cells and various gates to set/reset relavent state that matriculates through the deep RNN: 
+<p align="center"
+<img src="https://ucarecdn.com/c6aac297-6007-43a7-8216-1ba7c92de5c9/" width="70%" height="60%">
+</p>
 
-<img src="https://ucarecdn.com/c6aac297-6007-43a7-8216-1ba7c92de5c9/" width="50%" height="40%"> <img src="https://ucarecdn.com/c6aac297-6007-43a7-8216-1ba7c92de5c9/" width="50%" height="40%">
+And more generally the ***Long Short Term Memory Unit (LSTM)***: 
 
+<p align="center">
+<img src="https://ucarecdn.com/c6aac297-6007-43a7-8216-1ba7c92de5c9/" width="70%" height="60%">
+</p>
+
+Both units utilize memory cells and various gates to set/reset relavent state that then matriculates through the deep RNN to assist in making better associations.  
 
 
 
