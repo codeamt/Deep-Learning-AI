@@ -18,7 +18,7 @@ Each time step inherits information from the previous time step to help generate
 Additionally, the way we learn with RNNs is different, too. Loss is calculated by summing the individual losses of each time step, and instad of backward passing in one reverse iteration, backward propagation also happens recursively through each time step. This variance of the gradient descent learning algorithm is called ***Back Propagation Through Time***: 
 <p align="center">
 <b>Back Propagation Through Time with a Simple Uni-directional RNN</b><br>
-<img src="https://ucarecdn.com/834e977d-e4a7-400b-a109-6dc0c952a3cc/" width="70%" height="60%">
+<img src="https://ucarecdn.com/4f65e189-ed44-4bfa-b480-cf72396b9fab/" width="70%" height="60%">
 </p>
 
 
