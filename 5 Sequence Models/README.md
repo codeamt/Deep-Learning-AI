@@ -23,14 +23,14 @@ Additionally, the way we learn with RNNs is different, too. Loss is calculated b
 
 With sequence models, the number of inputs don't always match the number of outputs. The architecture of your RNN depends on the problem you might be trying to solve. For example, some popular sequence model problems and their corresponding RNN architectures: 
 
-
+<center>
   | Problem | Network |
 | --- | --- |
 | Speech Recognition | <img src="https://ucarecdn.com/ca77a526-c3e8-4e4b-a3b2-be7d1d7ae7f4/" width="200px" height="100px">|
 | Music Generation | <img src="https://ucarecdn.com/a99fa010-48e4-4c44-8e08-239169a0914d/" width="200px" height="100px">|
 | Sentiment Classification | <img src="https://ucarecdn.com/ed084d52-00b8-4b1a-aba2-8c16e7384891/" width="200px" height="100px">|
 | Machine Translation | <img src="https://ucarecdn.com/85008935-2ff4-482a-87b1-7237f44ba6c8/" width="200px" height="100px">|
-
+</center>
 
 
 ## Lessons
