@@ -21,12 +21,13 @@ Additionally, the way we learn with RNNs is different, too. Loss is calculated b
 <img src="https://ucarecdn.com/4f65e189-ed44-4bfa-b480-cf72396b9fab/" width="70%" height="60%">
 </p>
 
+Professor Ng walks us through language modeling, that is, tokeninzing a glossary of terms (a ***corpus***) and calculating the probability that a given input sequence holds one of the words in the corpus. He goes further to talk about sequence sampling, character-level modeling, and how sequence generation works under the hood. 
+
 With sequence models, the number of inputs don't always match the number of outputs. The architecture of your RNN depends on the problem you might be trying to solve. For example, some popular sequence model problems and their corresponding RNN architectures: 
 
-<p align="center">
-<table width="600px">
+<table >
  <tr>
-   <th>Problem</th><th>Network</th>
+   <th width="40%">Problem</th><th width="60%">Network</th>
   </tr>
 <tr>
   <td>Speech Recognition</td><td><img src="https://ucarecdn.com/ca77a526-c3e8-4e4b-a3b2-be7d1d7ae7f4/" width="200px" height="100px"></td>
@@ -41,7 +42,14 @@ With sequence models, the number of inputs don't always match the number of outp
   <td>Machine Translation</td><td><img src="https://ucarecdn.com/85008935-2ff4-482a-87b1-7237f44ba6c8/" width="200px" height="100px"></td>
 </tr>
 </table>
-</p>
+
+As explained in previous courses, the deeper the network, the more adverse the effect on the network's memory (e.g., the vanishing gradient problem, where derivatives decrease exponentially). With natural language processing, for example, a simple RNN would have a long time memorizing word tenses for computations further down the sequence. To address this problem, RNNs have more sophisticated neurons for helping to capture long-range dependencies: the ***Gated Recurrent Unit (GRU)*** and the ***Long Short Term Memory Unit (LSTM)***, which utilize memory cells and various gates to set/reset state in a deep RNN. 
+
+<img src="https://ucarecdn.com/c6aac297-6007-43a7-8216-1ba7c92de5c9/" width="50%" height="40%"> <img src="https://ucarecdn.com/c6aac297-6007-43a7-8216-1ba7c92de5c9/" width="50%" height="40%">
+
+
+
+
 
 ## Lessons
 - [x] Recurrent Neural Networks
