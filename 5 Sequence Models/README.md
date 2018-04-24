@@ -18,7 +18,7 @@ Each time step inherits information from the previous time step to help generate
 Additionally, the way we learn with RNNs is different, too. Loss is calculated by summing the individual losses of each time step, and instad of backward passing in one reverse iteration, backward propagation also happens recursively through each time step. This variance of the gradient descent learning algorithm is called ***Back Propagation Through Time***: 
 <p align="center">
 <b>Back Propagation Through Time with a Simple Uni-directional RNN</b><br>
-<img src="https://ucarecdn.com/4f65e189-ed44-4bfa-b480-cf72396b9fab/" width="70%" height="60%">
+<img src="https://ucarecdn.com/0d4d15af-5828-47a8-9067-c7b3bb170291/" width="70%" height="60%">
 </p>
 
 Professor Ng walks us through language modeling, that is, tokeninzing a glossary of terms (a ***corpus***) and calculating the probability that a given input sequence holds one of the words in the corpus. He goes further to talk about sequence sampling, character-level modeling, and how sequence generation works under the hood. 
@@ -30,26 +30,26 @@ With sequence models, the number of inputs don't always match the number of outp
    <th width="40%">Problem</th><th width="60%">Network</th>
   </tr>
 <tr>
-  <td>Speech Recognition</td><td><img src="https://ucarecdn.com/ca77a526-c3e8-4e4b-a3b2-be7d1d7ae7f4/" width="200px" height="100px"></td>
+  <td>Speech Recognition</td><td><img src="https://ucarecdn.com/ca77a526-c3e8-4e4b-a3b2-be7d1d7ae7f4/" width="30%" height="100px"></td>
 </tr>
 <tr>
-  <td>Music Generation</td><td><img src="https://ucarecdn.com/a99fa010-48e4-4c44-8e08-239169a0914d/" width="200px" height="100px"></td>
+  <td>Music Generation</td><td><img src="https://ucarecdn.com/a99fa010-48e4-4c44-8e08-239169a0914d/" width="30%" height="100px"></td>
 </tr>
 <tr>
-  <td>Sentiment Classification</td><td><img src="https://ucarecdn.com/ed084d52-00b8-4b1a-aba2-8c16e7384891/" width="200px" height="100px"></td>
+  <td>Sentiment Classification</td><td><img src="https://ucarecdn.com/ed084d52-00b8-4b1a-aba2-8c16e7384891/" width="30%" height="100px"></td>
 </tr>
 <tr>
-  <td>Machine Translation</td><td><img src="https://ucarecdn.com/85008935-2ff4-482a-87b1-7237f44ba6c8/" width="200px" height="100px"></td>
+  <td>Machine Translation</td><td><img src="https://ucarecdn.com/85008935-2ff4-482a-87b1-7237f44ba6c8/" width="30%" height="100px"></td>
 </tr>
 </table>
 
-As explained in previous courses, the deeper the network, the more adverse the effect on the network's memory (e.g., the vanishing gradient problem, where derivatives decrease exponentially). With natural language processing, for example, a simple RNN would have a hard time memorizing word tenses for word analysis further down the sequence. To address this problem, RNNs have more sophisticated neurons that help capture long-range dependencies. The ***Gated Recurrent Unit (GRU)***: 
+As explained in previous courses, the deeper the network, the more adverse the effect on the network's memory (e.g., the vanishing gradient problem, where derivatives decrease exponentially). With natural language processing, for example, a simple RNN would have a hard time memorizing word tenses for word analysis further down the sequence. To address this problem, RNNs have more sophisticated neurons that help capture long-range dependencies. The <b><i>Gated Recurrent Unit (GRU)</b></i>: 
 
 <p align="center">
 <img src="https://ucarecdn.com/e73e4014-4bb7-45e2-adee-295f30a40522/" width="70%" height="60%">
 </p>
 
-And more generally the ***Long Short Term Memory Unit (LSTM)***: 
+And more generally the <b><i>Long Short Term Memory Unit (LSTM)</b></i>: 
 
 <p align="center">
 <img src="https://ucarecdn.com/6e5e9f94-51a6-4837-a7c1-2910797fcc7b/" width="70%" height="60%">
