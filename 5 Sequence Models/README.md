@@ -29,12 +29,7 @@ Potential use cases for RNNs include:
 - Machine Translation 
 - Sentiment Classification 
 
-<figure>
-  <img src="https://ucarecdn.com/ed084d52-00b8-4b1a-aba2-8c16e7384891/" width="30%" title="Sentiment Classification" > 
-  <figcaption>
-    Sentiment Classification
-  </figcaption>
-</figure> 
+
 
 <figure>
   <img src="https://ucarecdn.com/ed084d52-00b8-4b1a-aba2-8c16e7384891/" width="30%" title="Sentiment Classification" > 
@@ -43,6 +38,12 @@ Potential use cases for RNNs include:
   </figcaption>
 </figure> 
   
+  | Problem | Network |
+| --- | --- |
+| Sentiment Classification | <img src="https://ucarecdn.com/ed084d52-00b8-4b1a-aba2-8c16e7384891/" width="30%">|
+| Music Generation | <img src="https://ucarecdn.com/ed084d52-00b8-4b1a-aba2-8c16e7384891/" width="30%">|
+
+
 
   
 - DNA Sequence Analysis 
