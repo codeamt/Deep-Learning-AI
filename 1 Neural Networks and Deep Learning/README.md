@@ -27,7 +27,7 @@ then, in a multi-layer perceptron, or a deep network.
 <img src="https://ucarecdn.com/70d6d8d2-699e-4869-8df3-5d9a8558a7c0/" width="60%" height="50%" >
 </p>
 
-The magic of deep learning happens in the inner parts of an architected model, using aforementioned layers of what we call "neurons" that activate and facilitate the learning process. The actual "learning" happens with the help of partial derivatives, when we perform "back propogation" to systematically improve our model's learning.
+The magic of deep learning happens in the inner parts of an architected model, using aforementioned layers of what we call "neurons" that activate and facilitate the learning process. The actual "learning" happens with the help of the ***gradient descent algorithm*** that uses partial derivatives to correct the weights generated in the forward feed process until we can't any longer (hit a local minimum for loss), thereby systematically improving our model's learning.
 
 <p align="center">
   <img src="https://ucarecdn.com/51808340-5082-4aa6-b53c-eb09449001b0/" width="60%" height="50%" >
