@@ -9,11 +9,11 @@
 
 In the [first course](https://www.coursera.org/learn/neural-networks-deep-learning) of deeplearning.ai, Andrew Ng provides a thoughtful introduction to the foundational concepts of deep learning. 
 
-Deep learning, a subsect of Machine Learning, denotes the regressive process of learning: 
+Deep learning, a branch of AI, denotes the regressive process of learning from various types of data, such as images, words, and sounds. A bare bones implementation of a Neural Network requires: 
 
-- the appropriate co-efficients ("the weights") and bias values (together, "the parameters") for multi-dimensional inputs (meaning, featurized x values - say, a record of houses and respective features, like number of bedrooms, bathrooms, windows, etc., for those houses) 
+- the appropriate co-efficient values ("the weights") and bias values (together, "the parameters") for multi-dimensional inputs (meaning, featurized x values - say, a record of houses and respective features, like number of bedrooms, bathrooms, windows, etc., for those houses) 
 
-- uses these learned parameters to architect a schematic formula (a model) that predicts outputs (y values, sometimes also multi-dimensional, but following the example, say the market price) for those inputs with a freakishly high level of accuracy. 
+- a schematic formula (a model), architected with these learned parameters, that predicts outputs (y values/"labels", sometimes also multi-dimensional, but following the aforementioned example, say the market price) for those inputs with a freakishly high level of accuracy. 
 
 We start off basic in the first week, and unpack how logistic regression (weight generation), gradient descent (weight correction) and cost calculation (error analysis) work for a single training example (e.g., a single house-to-price mapping),  and move outward to apply these processes for some (n) number of training examples (e.g., ALL the houses, all in one loop), first in a single perceptron (one layer), 
 
@@ -27,7 +27,7 @@ then, in a multi-layer perceptron, or a deep network.
 <img src="https://ucarecdn.com/70d6d8d2-699e-4869-8df3-5d9a8558a7c0/" width="60%" height="50%" >
 </p>
 
-The magic of deep learning happens in the inner parts of an architected model, using aforementioned layers of what we call "neurons" that activate and facilitate the learning process. The actual "learning" happens with the help of Calculus and derivatives, when we perform "back propogation" to systematically improve our model's learning.
+The magic of deep learning happens in the inner parts of an architected model, using aforementioned layers of what we call "neurons" that activate and facilitate the learning process. The actual "learning" happens with the help of partial derivatives, when we perform "back propogation" to systematically improve our model's learning.
 
 <p align="center">
   <img src="https://ucarecdn.com/51808340-5082-4aa6-b53c-eb09449001b0/" width="60%" height="50%" >
@@ -57,25 +57,22 @@ Professor Ng goes beyond providing the theory, and demonstrates how to implement
 
 ## Additional Material
 
-Heroes of Deep Learning Interviews:
-
-
 <p align="center">
- **Geoffrey Hinton**
+ **Heroes of Deep Learning Interview with Geoffrey Hinton**
   <br>
-<img src="" width="400px" height="350px">
+<img src="https://ucarecdn.com/4cdcee7d-58d4-4cc2-b2a0-120e5de1cbbc/" width="60%" height="50%">
 </p>
 
 
 <p align="center">
-  **Ian Goodfellow**
+  **Heroes of Deep Learning Interview withPieter Abbeel**
   <br>
-<img src="" width="400px" height="350px">
+<img src="https://ucarecdn.com/98688241-365b-4930-b5fe-36788aa7ed8c/" width="60%" height="50%">
 </p>
 
 
 <p align="center">
-  **Pieter Abbeel**
+  **Heroes of Deep Learning Interview with Ian Goodfellow**
   <br>
-<img src="" width="400px" height="350px">
+<img src="https://ucarecdn.com/61d0da6e-d8b7-4bdb-8130-94b27de9a317/" width="400px" height="350px">
 </p>
