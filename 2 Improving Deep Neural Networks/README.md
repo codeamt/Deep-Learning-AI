@@ -64,11 +64,9 @@ Once all the best practices for tuning hyperparameters have been covered, the co
 <p align="center">
   <b>Hereos of Deep Learning Interview with Yoshua Bengio</b><br>
 <img src="https://ucarecdn.com/6682ae29-bb7b-447b-bd1f-c041c5a74594/" width="60%" height="50%"><br>
-  Here's where I'll give a brief synopsis of the interview and my takeaways.
 </p>
 
 <p align="center">
   <b>Heroes of Deep Learning Interview with Yuanqing Lin</b><br>
 <img src="https://ucarecdn.com/31a82d3d-e55f-4b05-b446-4b197c0ef279/" width="60%" height="50%"><br>
-  Here's where I'll give a brief synopsis of the interview and my takeaways.
 </p>
