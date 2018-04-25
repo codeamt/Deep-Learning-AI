@@ -6,24 +6,27 @@
 
 <h1 align="center">About the Course</h1>
 
-In the [fifth and final course](https://www.coursera.org/learn/nlp-sequence-models) of the specialization, we explore Recurrent Neural Networks (RNNs) and training on sequences/time series data, where each record represents a single ***time step*** in the data sequence. In a sense, each value (time step) in a sequence of values (multiple time steps) acts as its own learning problem and undergoes linear regression to gain insights/generate a prediction for that specific time step in the series. 
+In the [fifth and final course](https://www.coursera.org/learn/nlp-sequence-models) of the specialization, we explore Recurrent Neural Networks (RNNs) and training on sequences/time series data, where each input (x) chains together several ***time steps***. Temporal in structure, time step in a sequence of time steps acts as its own learning problem and undergoes linear regression to gain insights/generate a prediction that gets carried over as input for the next step. 
 
-Each time step inherits information from the previous time step to help generate a prediction and unlike previous architectures, with RNNs, activations and prediction outputs are calculated separately:
+Unlike previous algorithms explored, with RNNs, activations and prediction outputs are calculated separately:
 
 <p align="center">
 <b>Simple Uni-directional RNN (where input and output equal the same length)</b><br>
 <img src="https://ucarecdn.com/acb7e6f2-d67e-426f-99d0-edf2053facc7/" width="70%" height="60%">
 </p>
 
-Additionally, the way we learn with RNNs is different, too. Loss is calculated by summing the individual losses of each time step, and instad of backward passing in one reverse iteration, backward propagation also happens recursively through each time step. This variance of the gradient descent learning algorithm is called ***Back Propagation Through Time***: 
+The above illustration could already be considered a deep RNN, but to solve more complex problems, architectures can often treat these individual RNNs as layers of an even deeper RNN. 
+
+The way we learn with RNNs is different, too. Loss is calculated by summing the individual losses from all the time steps, and instad of backward passing in one reverse iteration, backward propagation happens recursively through each time step. 
+
+This variance of gradient descent is called ***Back Propagation Through Time***: 
+
 <p align="center">
 <b>Back Propagation Through Time with a Simple Uni-directional RNN</b><br>
 <img src="https://ucarecdn.com/0d4d15af-5828-47a8-9067-c7b3bb170291/" width="70%" height="60%">
 </p>
 
-Professor Ng walks us through language modeling, that is, tokeninzing a glossary of terms (a ***corpus***) and calculating the probability that a given input sequence holds one of the words in the corpus. He goes further to talk about sequence sampling, character-level modeling, and how sequence generation works under the hood. 
-
-With sequence models, the number of inputs don't always match the number of outputs. The architecture of your RNN depends on the problem you might be trying to solve. For example, some popular sequence model problems and their corresponding RNN architectures: 
+With sequence models, the number of inputs don't always match the number of outputs. The architecture of your RNN depends on the problem you might be trying to solve. For example, below in the table are some popular sequence model problems and their corresponding RNN architectures: 
 
 <table >
  <tr>
@@ -43,23 +46,32 @@ With sequence models, the number of inputs don't always match the number of outp
 </tr>
 </table>
 
-As explained in previous courses, the deeper the network, the more adverse the effect on the network's memory (e.g., the vanishing gradient problem, where derivatives decrease exponentially). With natural language processing, for example, a simple RNN would have a hard time memorizing word tenses for word analysis further down the sequence. To address this problem, RNNs have more sophisticated neurons that help capture long-range dependencies. The <b><i>Gated Recurrent Unit (GRU)</b></i>: 
+As explained in previous courses, the deeper the network, the more adverse the effect on the network's memory (e.g., the vanishing gradient problem, where derivatives decrease exponentially). With natural language processing, for example, a simple RNN would have a hard time memorizing word tenses for word analysis further down the sequence. To address the vanishing gradient issue, RNNs have more sophisticated neurons that help capture long-range dependencies: 
 
 <p align="center">
 <img src="https://ucarecdn.com/e73e4014-4bb7-45e2-adee-295f30a40522/" width="70%" height="60%">
 </p>
 
-And more generally the <b><i>Long Short Term Memory Unit (LSTM)</b></i>: 
+And more generally: 
 
 <p align="center">
 <img src="https://ucarecdn.com/6e5e9f94-51a6-4837-a7c1-2910797fcc7b/" width="70%" height="60%">
 </p>
 
-Both units utilize memory cells and various gates to set/reset relavent state that then matriculates through the deep RNN to assist in making better associations.  
+Both units utilize memory cells and various gates to set/reset state that then matriculates through the deep RNN to assist in making better associations. Most often, word associations. GRUs are a more recent innovation and can sometimes outperform LSTMs with smaller data sets because of their simplicity but LSTMs outperform when it comes to memorizing exceedingly long-range connections. Ultimately, the choice of neuron is highly contingent upon the nature of the problem and the amount of data available. 
+
+Perhaps most notably, RNNs also have the ability to perform bi-directional propagation to gain insight from future and past data simultaneously:
 
 <p align="center">
 <img src="https://ucarecdn.com/7848ad58-9995-4ae9-978a-5c0b2a533bab/" width="70%" height="60%">
 </p>
+
+After walking us through the theory and associated formulas for calculating key parameters, Professor Ng then introduces us to Natural Language Processing, where we dive deep into language modeling; that is, tokeninzing a glossary of terms (a ***corpus***), modeling those words with one-hot vectors, featurizing those vectors with word embeddings for application use cases (like sentiment classification) and strategies for minimizing bias transposion.
+
+Finally, in the third and final week of the course, we explore Sequence to Sequence modeling.
+
+
+
 
 
 ## Lessons
