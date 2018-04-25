@@ -6,18 +6,16 @@
 
 <h1 align="center">About the Course</h1>
 
-In the [fifth and final course](https://www.coursera.org/learn/nlp-sequence-models) of the specialization, we explore Recurrent Neural Networks (RNNs) and training on sequences/time series data, where each input (x) chains together several ***time steps***. Temporal in structure, time step in a sequence of time steps acts as its own learning problem and undergoes linear regression to gain insights/generate a prediction that gets carried over as input for the next step. 
-
-Unlike previous algorithms explored, with RNNs, activations and prediction outputs are calculated separately:
+In the [fifth and final course](https://www.coursera.org/learn/nlp-sequence-models) of the specialization, we explore Recurrent Neural Networks (RNNs) and training on sequences/time series data, where each input (x) chains together several ***time steps***. Temporal in structure, each time step in a sequence of time steps acts as its own learning problem and undergoes linear regression to gain insights/generate a prediction that gets carried over as input for the next step. 
 
 <p align="center">
 <b>Simple Uni-directional RNN (where input and output equal the same length)</b><br>
 <img src="https://ucarecdn.com/acb7e6f2-d67e-426f-99d0-edf2053facc7/" width="70%" height="60%">
 </p>
 
-The above illustration could already be considered a deep RNN, but to solve more complex problems, architectures can often treat these individual RNNs as layers of an even deeper RNN. 
+The above illustration could already be considered a deep RNN, but to solve more complex problems, architectures can often treat these individual RNNs as layers of an even *deeper* RNN. 
 
-The way we learn with RNNs is different, too. Loss is calculated by summing the individual losses from all the time steps, and instad of backward passing in one reverse iteration, backward propagation happens recursively through each time step. 
+The way we learn with RNNs is different, too. Loss is calculated by summing the individual losses from all the time steps, and instead of backward passing in one reverse iteration, backward propagation happens recursively through each time step. 
 
 This variance of gradient descent is called ***Back Propagation Through Time***: 
 
@@ -46,33 +44,36 @@ With sequence models, the number of inputs don't always match the number of outp
 </tr>
 </table>
 
-As explained in previous courses, the deeper the network, the more adverse the effect on the network's memory (e.g., the vanishing gradient problem, where derivatives decrease exponentially). With natural language processing, for example, a simple RNN would have a hard time memorizing word tenses for word analysis further down the sequence. To address the vanishing gradient issue, RNNs have more sophisticated neurons that help capture long-range dependencies: 
+As explained in previous courses, the deeper the network, the more adverse the effect on the network's memory (e.g., the vanishing gradient problem, where derivatives decrease exponentially). With natural language processing, for example, a simple RNN would have a hard time memorizing word tenses for word analysis further down the sentence sequence. To address the vanishing gradient issue, RNNs have more sophisticated neurons that help capture long-range dependencies: 
+
 
 <p align="center">
 <img src="https://ucarecdn.com/e73e4014-4bb7-45e2-adee-295f30a40522/" width="70%" height="60%">
 </p>
+<br>
 
-And more generally: 
-
+And: 
+<br>
 <p align="center">
 <img src="https://ucarecdn.com/6e5e9f94-51a6-4837-a7c1-2910797fcc7b/" width="70%" height="60%">
 </p>
+<br>
 
-Both units utilize memory cells and various gates to set/reset state that then matriculates through the deep RNN to assist in making better associations. Most often, word associations. GRUs are a more recent innovation and can sometimes outperform LSTMs with smaller data sets because of their simplicity but LSTMs outperform when it comes to memorizing exceedingly long-range connections. Ultimately, the choice of neuron is highly contingent upon the nature of the problem and the amount of data available. 
+Both units utilize memory cells and various gates to set/reset state that then matriculates through the RNN's time steps to assist in making better associations down the way. GRUs are a more recent innovation and can sometimes outperform LSTMs with smaller data sets because of their simplicity but LSTMs outperform when it comes to memorizing exceedingly long-range connections. Ultimately, the choice of neuron is highly contingent upon the nature of the problem and the amount of data available. 
 
-Perhaps most notably, RNNs also have the ability to perform bi-directional propagation to gain insight from future and past data simultaneously:
+Perhaps most notable about RNNs is the ability to perform bi-directional propagation to gain insight from future and past data simultaneously and learn problems faster:
 
 <p align="center">
 <img src="https://ucarecdn.com/7848ad58-9995-4ae9-978a-5c0b2a533bab/" width="70%" height="60%">
 </p>
 
-After walking us through the theory and associated formulas for calculating key parameters, Professor Ng then introduces us to Natural Language Processing, where we dive deep into language modeling; that is, tokeninzing a glossary of terms (a ***corpus***), modeling those words with one-hot vectors, featurizing those vectors with word embeddings for application use cases (like sentiment classification) and strategies for minimizing bias transposion.
+After walking us through all the theory and associated formulas for calculating key parameters, Professor Ng then introduces us to Natural Language Processing, where we dive deep into language modeling; that is, tokenizing a glossary of terms (a ***corpus***), modeling those words with one-hot vectors, featurizing those vectors with word embeddings for application use cases (like sentiment classification) and strategies for minimizing bias transposition.
 
 Finally, in the third and final week of the course, we explore Sequence to Sequence modeling and how encoder and decoder networks in (1) a one-to-many architecture and (2) a many-to-many architecture can work in tandem with the beam search algorithm to achieve outcomes like image captioning and machine translation or speech recognition, respectively.
 
 This final time step in a series of courses also provided a host of programming assignments (linked below) that offered the opportunity to implement algorithms from notable research papers and solidify understanding about the most robust area of deep learning discussed in the specialization. 
 
-I'm incredibly grateful to Andrew Ng and the deeplearning.ai staff for putting together this syllabus! 
+I'm incredibly grateful to Andrew Ng and the deeplearning.ai staff for putting together this program! 
 
 ## Lessons
 - [x] Recurrent Neural Networks
