@@ -57,6 +57,10 @@ And more generally the <b><i>Long Short Term Memory Unit (LSTM)</b></i>:
 
 Both units utilize memory cells and various gates to set/reset relavent state that then matriculates through the deep RNN to assist in making better associations.  
 
+<p align="center">
+<img src="https://ucarecdn.com/7848ad58-9995-4ae9-978a-5c0b2a533bab/" width="70%" height="60%">
+</p>
+
 
 ## Lessons
 - [x] Recurrent Neural Networks
