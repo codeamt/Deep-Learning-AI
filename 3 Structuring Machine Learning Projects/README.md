@@ -11,7 +11,7 @@ Midway through the specialization, the [third course](https://www.coursera.org/l
 Some of the skills learnt to help construct Machine Learning strategy, specifically for deep learning, include:
 
 - Learning how orthogonilization - that is, a clear understanding of the cause and effect between specific hyperparameters and certain outcomes - can be used to improve precision with very few adjustments 
-- How to evalute various classifiers against each other based on a single number evaluation metric (e.g., F1 score and/or performance average)
+- How to evaluate various classifiers against each other based on a single number evaluation metric (e.g., F1 score and/or performance average)
 - Deciding on satisficing and optimizing metrics, trade-offs between the two, and when to use this approach verses a single number evaluation metric
 - Intuitions and considerations about determining train/dev/test set distributions (e.g., to avoid transposing human bias) to best serve target end users of an application 
 - When (natural data tasks) to compare NN's performance to Bayes error, and next steps if projects perform worse than humans
@@ -36,19 +36,20 @@ One of the more exciting courses in this series, Andrew Ng pulls from his own pe
 
 ## Case Studies
 
-- [x] [Bird Recognition in the city of Peacetopia](https://github.com/codeamt/Deep-Learning-AI/blob/master/3%20Structuring%20Machine%20Learning%20Projects/Case%20Studies/1%20Bird%20Recognition/README.md)
-- [x] [Autonomous Driving](https://github.com/codeamt/Deep-Learning-AI/blob/master/3%20Structuring%20Machine%20Learning%20Projects/Case%20Studies/2%20Autonomous%20Driving/README.md)
+- [x] [Bird Recognition in the city of Peacetopia](https://github.com/codeamt/Deep-Learning-AI/blob/master/3%20Structuring%20Machine%20Learning%20Projects/Case%20Studies/1%20Bird%20Recognition/README.md)<br>
+<img src="https://ucarecdn.com/3455375a-9d8f-4ab6-a949-b2ed14c7fa93/" width="60%" height="50%"><br>
 
+- [x] [Autonomous Driving](https://github.com/codeamt/Deep-Learning-AI/blob/master/3%20Structuring%20Machine%20Learning%20Projects/Case%20Studies/2%20Autonomous%20Driving/README.md)<br>
+<img src="https://ucarecdn.com/be7b621c-6e4b-48ca-aa89-e1068b1ece89/" width="60%" height="50%"><br>
 
 ## Additional Material
 
 <p align="center">
   <b>Heroes of Deep Learning Interview with Andrej Karpathy</b><br>
-<img src="" width="400px" height="350px"><br>
-  Here's where the description will go.
+<img src="https://ucarecdn.com/37f76f50-1fe6-4803-95cd-c48021fc56f3/" width="60%" height="50%"><br>
 </p>
 
 <p align="center">
   <b>Heroes of Deep Learning Interview with Ruslan Salakhutdinov</b><br>
-<img src="" width="400px" height="350px">
+<img src="https://ucarecdn.com/5ca52d76-de3b-41a8-9a5b-5fc86b2bcb3a/" width="60%" height="50%">
 </p>
