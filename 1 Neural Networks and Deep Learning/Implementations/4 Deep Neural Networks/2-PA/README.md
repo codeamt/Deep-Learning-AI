@@ -4,7 +4,7 @@
 <img src="https://ucarecdn.com/cb7cf6ca-af9c-4b36-b90d-f5671e2ecebb/" width="70%" height="60%" >
 </p>
 
-<b>Goal:Build a deep Neural Network that classifies cats.</b>
+<b>Goal:</b>Build a deep Neural Network that classifies cats.
 
 <b>Andrew Ng's Learning Objectives:</b> 
 
