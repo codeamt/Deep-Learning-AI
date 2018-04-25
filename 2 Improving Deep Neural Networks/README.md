@@ -13,7 +13,7 @@ Some of the deep learning "tricks" explored include:
 
 - Intuitions about minimizing overfitting and variance in DL projects (e.g., train/dev splits, regularization, etc.)
 - Popular regularization options (e.g., Euclidean Norm/L2 Regularization, using Dropout on layers inputting many params) 
-- Normalizing inputs to reduce variance, improve cost function optimization and ultimately speed up traing 
+- Normalizing inputs to reduce variance, improve cost function optimization and ultimately speed up training 
 - How randomizing weight initialization can solve exploding/vanishing gradient issues 
 - Using gradient checking to debug the back propagation process
 - Optimizing (e.g.,using mini-batch gradient descent, exponentially weighted averages, Adam or RMSprop) on "big data" sets  
@@ -33,7 +33,7 @@ Up until this course, the specialization mostly focuses on the binary classifier
 
 Lessons on the Softmax layer plant seeds of thought about vector encoding for later courses/network architectures. 
 
-Once all the best practices for tuning hyperparameters have been covered, the course gets into popular frameworks that handle some of the heavy lifting with built-in modular methods that we've been implementing from scratch in our programming assignments. This "learn-the-proof-first" type of teaching style helps to better understand all the moving parts of a DL framework, like Tensorflow, which we use in our final programming assignment to implement a simple computational graph (linked below). 
+Once all the best practices for tuning hyperparameters have been covered, the course gets into popular frameworks that handle some of the heavy lifting with built-in modular methods that we've been implementing from scratch in our programming assignments, thus far. This "learn-the-proof-first" type of teaching style helps to better understand all the moving parts of a DL framework, like Tensorflow, which we use in our final programming assignment to implement a simple computational graph (linked below). 
 
 
 ## Lessons
@@ -63,12 +63,12 @@ Once all the best practices for tuning hyperparameters have been covered, the co
 
 <p align="center">
   <b>Hereos of Deep Learning Interview with Yoshua Bengio</b><br>
-<img src="https://ucarecdn.com/6682ae29-bb7b-447b-bd1f-c041c5a74594/" width="400px" height="350px"><br>
+<img src="https://ucarecdn.com/6682ae29-bb7b-447b-bd1f-c041c5a74594/" width="60%" height="50%"><br>
   Here's where I'll give a brief synopsis of the interview and my takeaways.
 </p>
 
 <p align="center">
   <b>Heroes of Deep Learning Interview with Yuanqing Lin</b><br>
-<img src="https://ucarecdn.com/6682ae29-bb7b-447b-bd1f-c041c5a74594/" width="400px" height="350px"><br>
+<img src="https://ucarecdn.com/31a82d3d-e55f-4b05-b446-4b197c0ef279/" width="60%" height="50%"><br>
   Here's where I'll give a brief synopsis of the interview and my takeaways.
 </p>
