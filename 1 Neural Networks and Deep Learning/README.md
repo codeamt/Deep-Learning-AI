@@ -58,21 +58,21 @@ Professor Ng goes beyond providing the theory, and demonstrates how to implement
 ## Additional Material
 
 <p align="center">
- **Heroes of Deep Learning Interview with Geoffrey Hinton**
+  <b>Heroes of Deep Learning Interview with Geoffrey Hinton</b>
   <br>
 <img src="https://ucarecdn.com/4cdcee7d-58d4-4cc2-b2a0-120e5de1cbbc/" width="60%" height="50%">
 </p>
 
 
 <p align="center">
-  **Heroes of Deep Learning Interview withPieter Abbeel**
+  <b>Heroes of Deep Learning Interview withPieter Abbeel</b>
   <br>
 <img src="https://ucarecdn.com/98688241-365b-4930-b5fe-36788aa7ed8c/" width="60%" height="50%">
 </p>
 
 
 <p align="center">
-  **Heroes of Deep Learning Interview with Ian Goodfellow**
+  <b>Heroes of Deep Learning Interview with Ian Goodfellow</b>
   <br>
-<img src="https://ucarecdn.com/61d0da6e-d8b7-4bdb-8130-94b27de9a317/" width="400px" height="350px">
+<img src="https://ucarecdn.com/61d0da6e-d8b7-4bdb-8130-94b27de9a317/" width="60%" height="50%">
 </p>
