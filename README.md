@@ -19,7 +19,7 @@ In later parts of the specialization, Ng requires students to implement well-kno
 <h1 align="center">Scope of Learning</h1>
 
 <p align="center">
-<img src="https://ucarecdn.com/5fd5e6b7-1529-47c2-a7fb-ef8d60e91f96/" width="60%" height="80%" title="learning scope" >
+<img src="https://ucarecdn.com/11c899b6-915b-420d-8a40-86606cd8fac0/" width="60%" height="80%" title="learning scope" >
 </p>
 
 ## Individual Courses
