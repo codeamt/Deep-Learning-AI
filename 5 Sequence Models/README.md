@@ -68,11 +68,11 @@ Perhaps most notably, RNNs also have the ability to perform bi-directional propa
 
 After walking us through the theory and associated formulas for calculating key parameters, Professor Ng then introduces us to Natural Language Processing, where we dive deep into language modeling; that is, tokeninzing a glossary of terms (a ***corpus***), modeling those words with one-hot vectors, featurizing those vectors with word embeddings for application use cases (like sentiment classification) and strategies for minimizing bias transposion.
 
-Finally, in the third and final week of the course, we explore Sequence to Sequence modeling.
+Finally, in the third and final week of the course, we explore Sequence to Sequence modeling and how encoder and decoder networks in (1) a one-to-many architecture and (2) a many-to-many architecture can work in tandem with the beam search algorithm to achieve outcomes like image captioning and machine translation or speech recognition, respectively.
 
+This final time step in a series of courses also provided a host of programming assignments (linked below) that offered the opportunity to implement algorithms from notable research papers and solidify understanding about the most robust area of deep learning discussed in the specialization. 
 
-
-
+I'm incredibly grateful to Andrew Ng and the deeplearning.ai staff for putting together this syllabus! 
 
 ## Lessons
 - [x] Recurrent Neural Networks
