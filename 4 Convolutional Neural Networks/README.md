@@ -8,22 +8,22 @@
 
 In the [fourth installment](https://www.coursera.org/learn/convolutional-neural-networks) of deeplearning.ai, Andrew Ng introduces the Convolutional Neural Network (CNN) and how to apply CNNs on unstructured data (in this case of this course, image data).
 
-The most prevelant use case for the CNN architecture is <i>Computer Vision</i>; an area of deep learning that has broken ground over the past 2-3 years. Examples of Computer Vision include: 
+The most prevalent use case for the CNN architecture is <i>Computer Vision</i>; an area of deep learning that has broken ground over the past 2-3 years. Examples of Computer Vision include: 
 
 - Autonomous Driving 
 - Facial Recognition 
 - Automatic Reading of Radiology Images 
 - Neural Style Transfer 
 
-Up until this point in the course, programming assignments have implemented binary image classifiers with the basic, fully connected neural network architecture. With CNNs, trainers can process big data sets of high resolution photos with fewer paramaters by *convolving* inputs with filters of smaller dimension. 
+Up until this point in the course, programming assignments have implemented binary image classifiers with the basic, fully connected neural network architecture. With CNNs, trainers can process big data sets of high resolution photos with fewer parameters by *convolving* inputs with filters of smaller dimension. 
 
 <p align="center">
 <img src="https://ucarecdn.com/107f52b1-30a9-4644-995f-ce52f37b4c03/" width="60%" height="50%">
 </p>
 
-In a Convolutional NN, when applied to an input vector of images, the operation illustrated above functions like the matrix multiplication operation that occurs during the linear regression process of a fully connected layer in a traditional Deep Neural Net. 
+In a Convolutional NN, when applied to an input vector of images, the operation illustrated above functions like the matrix multiplication operation that occurs during the linear regression process of a fully connected layer in a traditional Deep NN. 
 
-The ***convolutional layer*** outputs a convolved matrix, ***z***, and when stacked together, each convolutional layer detects for a certain feature (like, horizontal or vertical edges) of the inputed image before undergoing some non-linear transformation (e.g., like ReLu activation) to get a visual cipher image that acts as the activation input for the next layer. 
+The ***convolutional layer*** outputs a convolved matrix, ***z***, and when stacked together, each convolutional layer detects for a certain feature (like, horizontal or vertical edges) of the inputted image before undergoing some non-linear transformation (e.g., like ReLu activation) to get a visual cipher image that acts as the activation input for the next layer. 
 
 <p align="center">
 <img src="https://ucarecdn.com/52890d97-5388-4ef5-99e5-c12575a39baa/" width="60%" height="50%">
@@ -40,7 +40,7 @@ Professor Ng works through the logic of hyperparameter tuning for convolutional 
 <img src="https://ucarecdn.com/dcb11f06-f5de-4564-b382-3d17a4f78922/" width="40%" height="200px" style="display: inline-block">
 </p>
 
-We use these building box layers along with fully-connected layers (usually, at least a logistical softmax layer that outputs a probability score) to design unique architectures to solve unique computer vision problems. 
+We use these building box layers along with fully-connected layers (usually, at least a logistical Softmax layer that outputs a probability score) to design unique architectures to solve unique computer vision problems. 
 
 Some of the classic CNN architectures/algorithms and topics explored in this course: 
 
