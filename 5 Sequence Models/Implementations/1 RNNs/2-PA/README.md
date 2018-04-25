@@ -1,11 +1,10 @@
 <h1 align="center">Dinosaur Island - Character-Level Language Modeling</h1> 
 
 <p align="center">
-<img src="https://ucarecdn.com/aeeb6cf2-c5a5-4697-b4de-353e97ae9413/" width="70%" height="60%" >
+<img src="https://ucarecdn.com/aeeb6cf2-c5a5-4697-b4de-353e97ae9413/" width="350px" height="300px" > 
+  <img src="https://ucarecdn.com/f7c80fad-a0e2-44f5-adb7-5b903974cf0d/" width="250px" height="300px" >
 </p><br>
-<p align="center">
-<img src="https://ucarecdn.com/f7c80fad-a0e2-44f5-adb7-5b903974cf0d/" width="70%" height="60%" >
-</p>
+
 
 <b>Goal:</b> Build a character-level language model to generate new dinosaur names. Then, optionally, use LSTM cells to learn Shakespeare's writing style and generate a new poem.
 
